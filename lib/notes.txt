@@ -1,0 +1,10 @@
+Creation of classes: 
+-The first letter of the name must be uppercase.
+-No spaces to be left between two or more words.
+-The words can be separated using only underscores.
+
+
+
+Creation of variables:
+-Variable names must be in lowercase.
+-Variable names must not be the same as class names.
