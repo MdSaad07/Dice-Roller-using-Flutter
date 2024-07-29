@@ -3,8 +3,16 @@ Creation of classes:
 -No spaces to be left between two or more words.
 -The words can be separated using only underscores.
 
-
-
 Creation of variables:
 -Variable names must be in lowercase.
 -Variable names must not be the same as class names.
+
+Use final
+-when you need variables that cannot be reassigned but can be computed at runtime
+
+Use Const
+-when you know the values at compile time to enhance performance and ensure immutability
+
+Use Var 
+-when you need a mutable variable that needs to be updated
+
