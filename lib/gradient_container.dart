@@ -18,7 +18,6 @@ class GradientContainer extends StatelessWidget {
   Widget build(context) {
     //use build(context) only if it is a statelesswidget
     return Container(
-      // child: const Text('Click the button below to spin the dice'),
       decoration: BoxDecoration(
         gradient: LinearGradient(colors: [
           myColor,
