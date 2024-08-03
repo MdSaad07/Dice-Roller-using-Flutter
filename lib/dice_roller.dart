@@ -1,7 +1,8 @@
-import "package:flutter/material.dart";
-import "dart:math";
+import 'package:flutter/material.dart';
+import 'dart:math';
 
 var randomizer = Random();
+
 class DiceRoller extends StatefulWidget {
   const DiceRoller({super.key});
 
@@ -25,37 +26,47 @@ class _DiceRollerState extends State<DiceRoller> {
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
+        const Text(
+          "Click the button below to spin the dice",
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 20,
+          ),
+        ),
         Image.asset(
           "assets/images/dice-$currentDiceRoll.png",
           width: 200,
         ),
         const SizedBox(height: 20),
-        TextButton(
+        OutlinedButton(
           onPressed: rollDice,
+          style: OutlinedButton.styleFrom(
+            side: const BorderSide(color: Colors.white, width: 2),
+          ),
           child: const Text(
             "Roll Dice",
-            style: TextStyle(color: Colors.white),
+            style: TextStyle(
+              color: Colors.white,
+            ),
           ),
-        )
+        ),
       ],
     );
   }
 }
 
-
-// void rollDice() {
-  //   var listImages = [
-  //     "assets/images/dice-1.png",
-  //     "assets/images/dice-2.png",
-  //     "assets/images/dice-3.png",
-  //     "assets/images/dice-4.png",
-  //     "assets/images/dice-5.png",
-  //     "assets/images/dice-6.png"
-  //   ];
-  //   var random = Random();
-  //   var randomIndex =
-
-
-  //   setState(() {});
-  //   activeDiceImage = listImages[randomIndex];
-  // }
+void main() {
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.blueAccent,
+        appBar: AppBar(
+          title: const Text('Dice Roller'),
+        ),
+        body: const Center(
+          child: DiceRoller(),
+        ),
+      ),
+    ),
+  );
+}
