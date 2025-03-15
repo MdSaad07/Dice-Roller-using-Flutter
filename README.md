@@ -20,7 +20,7 @@ Make sure you have the following installed:
 ### 📥 Installation
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-repo/dice-roller.git
+   https://github.com/MdSaad07/Dice-Roller-using-Flutter.git
    ```
 2. Navigate to the project folder:
    ```sh
