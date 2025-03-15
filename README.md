@@ -1,16 +1,53 @@
-# first_app
+# 🎲 Flutter Dice Roller App
 
-A new Flutter project.
+## 📌 Introduction
 
-## Getting Started
+This is a simple **Flutter** application that simulates a dice roller. The app allows users to roll a dice by clicking a button, and it updates dynamically with a random number between 1 and 6. 🎲✨
 
-This project is a starting point for a Flutter application.
+## 🛠 Features
+- 🎨 Beautiful gradient background
+- 🎲 Dynamic dice rolling with image updates
+- 🔥 Responsive UI
+- 🏗 Stateless and Stateful widgets implementation
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Getting Started
+### 📌 Prerequisites
+Make sure you have the following installed:
+- Flutter SDK
+- Dart SDK
+- Android Studio / Visual Studio Code
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 📥 Installation
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/your-repo/dice-roller.git
+   ```
+2. Navigate to the project folder:
+   ```sh
+   cd dice-roller
+   ```
+3. Install dependencies:
+   ```sh
+   flutter pub get
+   ```
+4. Run the app:
+   ```sh
+   flutter run
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📂 Project Structure
+```
+|-- lib/
+|   |-- main.dart (Main entry point)
+|   |-- dice_roller.dart (Stateful widget for dice rolling)
+|   |-- gradient_container.dart (Gradient background UI)
+|-- assets/images/ (Dice face images)
+|-- pubspec.yaml (Project dependencies)
+```
+
+## 📝 Author
+👨‍💻 **Mohammed Saad Fazal**
+
+## 📜 License
+This project is licensed under the MIT License. 📄
+
